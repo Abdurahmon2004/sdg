@@ -115,6 +115,7 @@ header .container .search .searchHome {
   padding-bottom: 40px;
 }
 .banner .container .swiper-slide {
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: space-between;
