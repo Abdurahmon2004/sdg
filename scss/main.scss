@@ -1,0 +1,9 @@
+@import "./var";
+@import "./mixins";
+@import "./home";
+.none{
+    display: none;
+}
+.grey{
+    color: $grey;
+}

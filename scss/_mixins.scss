@@ -1,0 +1,11 @@
+@mixin flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flexF($dr, $al, $js){
+    display: flex;
+    align-items: $al;
+    justify-content: $js;
+    flex-direction: $dr;
+}
